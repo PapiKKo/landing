@@ -1,7 +1,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import background from "../logo/book.png";
+import background from "../public/book.png";
 
 
 const vision = () => (
