@@ -6,7 +6,10 @@ import background from "../logo/book.png";
 
 const vision = () => (
     <section className="text-gray-600 body-font">
-        <Image src={background} />
+        <Image
+            src={background} />
+        <div className="absolute sm:right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl text-white top-48">Share the Voice for Good of All, Not Benefit of One
+    </div>
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
       
