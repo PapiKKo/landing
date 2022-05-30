@@ -1,9 +1,26 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
 import "tailwindcss/tailwind.css";
+import Footer from '../components/footer';
+import Header from '../components/header';
+import Vision from '../components/vision';
+import Roadmap from '../components/roadmap';
+import Action from '../components/action';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
 
-export default MyApp
+const App = () => (
+  <>
+  <header>
+    <Header />
+  </header>
+  <main>
+    <Vision />
+    <Roadmap />
+    <Action />
+  </main>
+  <footer>
+    <Footer />
+  </footer>
+  </>
+);
+
+export default App;
