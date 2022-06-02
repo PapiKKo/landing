@@ -1,7 +1,7 @@
 
 import React from "react";
 import Image from 'next/image';
-import background from "../public/book.png";
+import background from "../public/images/book.png";
 
 
 const vision = () => (
@@ -16,17 +16,17 @@ const vision = () => (
         VISION
         <br className="hidden md:block" />
         </h5>
-        <p className="leading-relaxed text-lg ">
+        <p className="leading-relaxed text-2xl">
           NOT a Taker, BUT a Giver.
         </p><br className="hidden md:block" /><br className="hidden md:block" /><br className="hidden md:block" />
-        <h5 className="pt-12 pb-4 mb-8 text-4xl font-black leading-none md:pl-2">
-        SPREAD YOUR WORDSa<br/>+ GET FB
+        <h5 className="pt-12 pb-4 mb-8 text-4xl font-extrabold leading-none md:pl-2">
+        SPREAD YOUR WORDS<br/>+ GET FB
         <br className="hidden md:block" />
         </h5>
-          <p className="leading-relaxed text-lg ">
+          <p className="leading-relaxed text-2xl">
           Exploratrium is a Web3 contents sharing platform<br/> with SOCIAL-FI AND GAME-FI ELEMENTS,<br/> whereby Creators and Readers both can make handsome<br/>
             earnings through uploading/reading contents.
-              </p>
+          </p>
     </div>
   </div>
 </section>

@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from "next/link";
-import Image from 'next/image';
-import twitter from "../public/Twitter_circle_blue.png";
-import discord from "../public/Discord-Logo-Color.png";
-import telegram from "../public/telegram.png";
+import Image from "next/image";
+import twitter from "../public/images/Twitter_circle_blue.png";
+import discord from "../public/images/Discord-Logo-Color.png";
+import telegram from "../public/images/telegram.png";
 
 
 const action = () => (
@@ -31,26 +31,20 @@ const action = () => (
             </h5>
         </Link>
         <div className="flex flex-wrap -m-3 justify-center">
-            <div className="lg:h-28 w-28 p-4 m-6">
-                <div className="hover:cursor-pointer">
-                    <Link href="https://twitter.com/ExploratriumM">
-                        <img src={twitter}/>
-                    </Link>
-                </div>
+            <div className="lg:h-24 lg:w-24 p-4 m-6">
+                <a href="https://twitter.com/ExploratriumM" className="hover:cursor-pointer">
+                    <Image src={twitter} alt="twitter social icon"/>
+                </a>
             </div>
-            <div className="lg:h-28 w-28 p-4 m-6">
-                <div className="hover:cursor-pointer">
-                    <Link href="./">
-                        <Image src={discord}/>
-                    </Link>
-                </div>
+            <div className="lg:h-24 lg:w-24 p-4 m-6">
+                <a href="./" className="hover:cursor-pointer">
+                    <Image src={discord} alt="discord social icon"/>
+                </a>
             </div>
-            <div className="lg:h-28 w-28 p-4 m-6">
-                <div className="hover:cursor-pointer">
-                    <Link href="./">
-                        <Image src={telegram}/>
-                    </Link>
-                </div>
+            <div className="lg:h-24 lg:w-24 p-4 m-6">
+                <a href="./" className="hover:cursor-pointer">
+                    <Image src={telegram} alt="teleram social icon"/>
+                </a>
             </div>
         </div>
       </div>
