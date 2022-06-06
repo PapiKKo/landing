@@ -114,3 +114,19 @@
     flex-direction: column;
   }
 }
+
+
+
+/* ボタンのテキスト(隠れているテキスト) */
+.btn__text:nth-child(2) {
+  display: none;
+}
+
+/* ボタンホバーアクション */
+.btn:hover .btn__text:nth-child(1) {
+  display: none;
+}
+
+.btn:hover .btn__text:nth-child(2) {
+  display: block;
+}
