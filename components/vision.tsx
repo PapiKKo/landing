@@ -29,6 +29,9 @@ const vision = () => (
             earnings through uploading/reading contents.
           </p>
     </div>
+    <div className="text-right pr-4 md:pr-12">
+      <a href="https://doc.exploratrium.io" className="leading-relaxed sm:text-base md:text-xl text-blue-400 border-b-2 border-blue-400">Learn more</a>
+    </div>
   </div>
 </section>
 );

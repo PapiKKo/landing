@@ -23,7 +23,7 @@ const action = () => (
             CO-CREATIVE
             <br/>
             EXPLORATRIUM
-            <br/><br/>
+            <br/>
             WITH
             
             </h5>

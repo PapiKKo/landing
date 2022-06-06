@@ -115,18 +115,46 @@
   }
 }
 
-
+.btn {
+  text-align: center;
+}
 
 /* ボタンのテキスト(隠れているテキスト) */
 .btn__text:nth-child(2) {
   display: none;
+  text-align: center;
+
 }
 
 /* ボタンホバーアクション */
 .btn:hover .btn__text:nth-child(1) {
   display: none;
+  text-align: center;
 }
 
 .btn:hover .btn__text:nth-child(2) {
   display: block;
+  text-align: center;
+}
+
+.Btn {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.Btn__text:nth-child(2) {
+  display: none;
+  transition: 1s;
+}
+
+/* ボタンホバーアクション */
+.Btn:hover .Btn__text:nth-child(1) {
+  display: none;
+  transition: 1s;
+}
+
+.Btn:hover .Btn__text:nth-child(2) {
+  display: block;
+  transition: 1s;
 }

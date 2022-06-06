@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import pictogram from '../public/images/スタンダードな人物ピクトグラム.svg';
+import css from '../styles/Home.module.css';
 
 
 const roadmap = () => (
@@ -179,13 +180,14 @@ const roadmap = () => (
             </div>
         </div>
 
-        <div className="p-2 w-full text-center">
-        <button className="inline-flex items-center bg-black border-0 py-4 px-6 focus:outline-none hover:bg-gray-300 rounded mt-4 md:mt-0 text-white hover:text-black hover:border-black sm:text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-none">
-            LAUNCH UP
-        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" className="md:w-8 md:h-8 w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-        </button> 
+        <div className={css.Btn}>
+            <button className="inline-flex items-center bg-black border-0 py-4 px-6 focus:outline-none hover:bg-gray-300 rounded mt-4 md:mt-0 text-white hover:text-black hover:border-black sm:text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-none">
+                <span className={css.Btn__text}>LAUNCH UP</span>
+                <span className={css.Btn__text}>COMING SOON ......</span>
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" className="md:w-8 md:h-8 w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+            </button> 
       </div>
     </div>
   </div>
