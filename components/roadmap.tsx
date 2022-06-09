@@ -8,7 +8,7 @@ const roadmap = () => (
     <section className="body-font">
         <div className="container px-5 py-12 mx-auto flex flex-col">
             <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center lg:w-4/6">
-                <h5 className="mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
+                <h5 id="roadmap" className="mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
                     ROAD MAP
                     </h5>
             </div>

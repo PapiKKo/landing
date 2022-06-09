@@ -8,11 +8,11 @@ const vision = () => (
     <section className="body-font">      
         <Image
             src={background} />
-        <div className="absolute right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl text-white top-48">Share the Voice for Good of All, Not Benefit of One
+        <div className="absolute right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl text-white top-44">Share the Voice for Good of All, Not Benefit of One
     </div>
   <div className="container px-5 py-12 mx-auto flex flex-col">
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center lg:w-4/6 mx-auto">
-      <h5 className="pt-12 pb-4 mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
+      <h5 id="vision" className="pt-12 pb-4 mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
       VISION
         <br className="hidden md:block" />
         </h5>

@@ -9,7 +9,7 @@ import telegram from "../public/images/telegram.png";
 const action = () => (
     <div className="container px-5 py-12 mx-auto flex flex-col">
     <div className="py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <h5 className="mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
+      <h5 id="action" className="mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
       SEE OUR ACTION
        
       </h5>
