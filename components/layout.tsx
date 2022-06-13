@@ -48,10 +48,10 @@ export const Layout = ({ children }: Props) => {
                 </a>
                 <div className="navbar-menu lg:ml-auto lg:mr-auto flex flex-wrap text-base lg:mb-4">
                         
-                    <AnchorLink href='#vision' className="hidden lg:inline-block mr-5 text-2xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Vision</AnchorLink>
-                    <AnchorLink href='#action' className="hidden lg:inline-block mx-5 text-2xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Action</AnchorLink>
-                    <AnchorLink href='#roadmap' className="hidden lg:inline-block mx-5 text-2xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">RoadMap</AnchorLink>
-                    <a href="https://doc.exploratrium.io" className="hidden lg:inline-block mx-5 text-2xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Lite Paper</a>
+                    <AnchorLink href='#vision' className="hidden lg:inline-block mr-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Vision</AnchorLink>
+                    <AnchorLink href='#roadmap' className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">RoadMap</AnchorLink>
+                    <AnchorLink href='#action' className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Community</AnchorLink>
+                    <a href="https://doc.exploratrium.io" className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Lite Paper</a>
 
                 </div>
 
@@ -70,8 +70,8 @@ export const Layout = ({ children }: Props) => {
                 </button>
                 <div className={"absolute lg:hidden right-0 top-16 z-40 w-full py-2 mt-2 bg-white rounded-md shadow-xl text-center transition-all"+ (active.isActive==true ? ' block' : ' hidden')}>
                     <AnchorLink href='#vision' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Vision</AnchorLink>
-                    <AnchorLink href='#action' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Action</AnchorLink>
                     <AnchorLink href='#roadmap' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">RoadMap</AnchorLink>
+                    <AnchorLink href='#action' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Community</AnchorLink>
                     <a href="https://doc.exploratrium.io" className="block lg:hidden px-4 py-3 text-black font-medium capitalize transition-colors duration-200 transform hover:bg-gray-100">Lite Paper</a>
                     <button className={css.btn+" px-4 py-3 text-center bg-black w-56 focus:outline-none hover:text-black hover:bg-gray-300 rounded text-white font-medium"}>
                         <span className={css.btn__text}>LAUNCH UP</span>
