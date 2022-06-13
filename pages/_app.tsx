@@ -1,26 +1,7 @@
-import '../styles/globals.css'
-import "tailwindcss/tailwind.css";
-import Footer from '../components/footer';
-import Header from '../components/header';
-import Vision from '../components/vision';
-import Roadmap from '../components/roadmap';
-import Action from '../components/action';
+import React from "react";
+import Home from './index';
 
-
-const App = () => (
-  <>
-  <header>
-    <Header />
-  </header>
-  <main>
-    <Vision />
-    <Roadmap />
-    <Action />
-  </main>
-  <footer>
-    <Footer />
-  </footer>
-  </>
-);
-
+const App= () => {
+    return <Home/>
+}
 export default App;
