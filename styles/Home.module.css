@@ -1,6 +1,11 @@
 .btn {
   text-align: center;
   right: 0px;
+  transition: 0.1s;
+}
+
+.btn__text {
+  transition: 0.5s;
 }
 
 /* ボタンのテキスト(隠れているテキスト) */
@@ -13,13 +18,11 @@
 .btn:hover .btn__text:nth-child(1) {
   display: none;
   text-align: center;
-  transition: 1s;
 }
 
 .btn:hover .btn__text:nth-child(2) {
   display: block;
   text-align: center;
-  transition: 1s;
 }
 
 /* ボタン */

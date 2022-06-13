@@ -8,9 +8,9 @@ const roadmap = () => (
     <section className="body-font">
         <div className="container px-5 py-12 mx-auto flex flex-col">
             <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center lg:w-4/6">
-                <h5 id="roadmap" className="mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
+                <h1 id="roadmap" className="mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
                     ROAD MAP
-                    </h5>
+                    </h1>
             </div>
             <div className="flex flex-wrap -m-2 justify-center">
                 <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -179,16 +179,15 @@ const roadmap = () => (
                     </div>
             </div>
         </div>
-
-        <div className={css.Btn}>
-            <button className="inline-flex items-center bg-black border-0 py-4 px-6 focus:outline-none hover:bg-gray-300 rounded mt-4 md:mt-0 text-white hover:text-black hover:border-black sm:text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-none">
-                <span className={css.Btn__text}>LAUNCH UP</span>
-                <span className={css.Btn__text}>COMING SOON ......</span>
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" className="md:w-8 md:h-8 w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
+    </div>
+    <div className={css.btn+' flex flex-wrap my-4 justify-center mx-auto'}>
+        <button className="flex items-center bg-black py-4 px-6 focus:outline-none hover:bg-gray-300 rounded md:mt-0 text-white hover:text-black sm:text-2xl lg:text-4xl xl:text-5xl font-extrabold  transition-all">
+            <span className={css.btn__text}>LAUNCH UP</span>
+            <span className={css.btn__text}>COMING SOON ......</span>
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" className="md:w-8 md:h-8 w-4 h-4 ml-1 transition-all" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" className=" transition-all"></path>
             </svg>
-            </button> 
-      </div>
+        </button> 
     </div>
   </div>
 </section>

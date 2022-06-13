@@ -1,7 +1,13 @@
 import React from "react";
-import Home from './index';
+import Layout from '../components/layout';
+import type { AppProps } from "next/app";
 
-const App= () => {
-    return <Home/>
-}
+
+const App= ({ Component, pageProps }: AppProps) => {
+    return (
+        <Layout>
+            <Component {...pageProps} />
+        </Layout>
+    );
+};
 export default App;
