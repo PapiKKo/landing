@@ -2,11 +2,12 @@
 import React, { ReactNode, useState } from "react";
 import Image from 'next/image';
 import logo2_rocket from "../public/images/logo2_head.PNG";
+import openTag from '../public/images/openTag.svg';
 import css from '../styles/Home.module.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { slide as Menu } from "react-burger-menu";
 import rocket from "../public/images/logo_rocket.png";
-
+import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 
 
@@ -31,7 +32,7 @@ export const Layout = ({ children }: Props) => {
       }
     return (
         <header className="text-blackbody-font bg-gray-200">
-            <div className="container mx-auto flex flex-wrap pt-4 px-4 md:flex-row items-center">
+            <div className="container mx-auto flex flex-wrap pt-4 px-auto md:flex-row items-center">
                 <a href="./" className="hidden sm:block flex title-font font-medium items-left text-gray-900 mb-4">
                     <Image 
                         src={logo2_rocket}
@@ -51,7 +52,14 @@ export const Layout = ({ children }: Props) => {
                     <AnchorLink href='#vision' className="hidden lg:inline-block mr-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Vision</AnchorLink>
                     <AnchorLink href='#roadmap' className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">RoadMap</AnchorLink>
                     <AnchorLink href='#action' className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Community</AnchorLink>
-                    <a href="https://doc.exploratrium.io" className="hidden lg:inline-block mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2">Lite Paper</a>
+                    <a href="https://doc.exploratrium.io" className="hidden lg:flex mx-5 text-xl font-medium hover:border-b-2 hover:border-gray-800 border-gray-200 border-b-2 content-between">
+                        Lite Paper
+                        <Image 
+                            src={openTag}
+                            height="35px"
+                            width="35px"
+                        />
+                    </a>
 
                 </div>
 
@@ -68,11 +76,17 @@ export const Layout = ({ children }: Props) => {
                         </path>
                     </svg>
                 </button>
-                <div className={"absolute lg:hidden right-0 top-16 z-40 w-full py-2 mt-2 bg-white rounded-md shadow-xl text-center transition-all"+ (active.isActive==true ? ' block' : ' hidden')}>
+                <div className={"absolute lg:hidden right-0 top-16 z-40 w-full py-2 mt-2 bg-white shadow-xl text-center transition-all"+ (active.isActive==true ? ' block' : ' hidden')}>
                     <AnchorLink href='#vision' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Vision</AnchorLink>
                     <AnchorLink href='#roadmap' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">RoadMap</AnchorLink>
                     <AnchorLink href='#action' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Community</AnchorLink>
-                    <a href="https://doc.exploratrium.io" className="block lg:hidden px-4 py-3 text-black font-medium capitalize transition-colors duration-200 transform hover:bg-gray-100">Lite Paper</a>
+                    <a href="https://doc.exploratrium.io" className="justify-center flex px-4 py-3 text-black font-medium capitalize transition-colors duration-200 transform hover:bg-gray-100 whitespace-nowrap">
+                        Lite Paper<Image 
+                            src={openTag}
+                            height="30px"
+                            width="30px"
+                        />
+                    </a>
                     <button className={css.btn+" px-4 py-3 text-center bg-black w-56 focus:outline-none hover:text-black hover:bg-gray-300 rounded text-white font-medium"}>
                         <span className={css.btn__text}>LAUNCH UP</span>
                         <span className={css.btn__text}>COMING SOON ......</span>

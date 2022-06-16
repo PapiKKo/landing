@@ -9,7 +9,7 @@ import telegram from "../public/images/telegram.png";
 const action = () => (
     <div className="container px-5 py-12 mx-auto flex flex-col">
     <div className="py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <h1 id="action" className="mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
+      <h1 id="action" className="pt-12 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
       SEE OUR ACTION
        
       </h1>
@@ -28,20 +28,15 @@ const action = () => (
             
             </h3>
         </Link>
-        <div className="flex flex-wrap -m-3 grid grid-cols-3 gap-4 justify-center">
-            <div className="relative lg:h-24 lg:w-24 p-6 m-6 md:h-18 md:w-18 sm:h-8 sm:w-8">
-                <a href="https://twitter.com/ExploratriumM" className="hover:cursor-pointer">
+        <div className="flex flex-wrap -m-3 grid grid-cols-2 gap-6 sm:gap-10 items-center">
+            <div className="relative items-center lg:h-24 lg:w-24 p-6 m-6 md:h-18 md:w-18 sm:h-8 sm:w-8">
+                <a href="https://twitter.com/ExploratriumM" className="hover:cursor-pointer hover:opacity-80">
                     <Image src={twitter} alt="twitter social icon" layout="fill" objectFit="contain"/>
                 </a>
             </div>
-            <div className="relative lg:h-24 lg:w-24 p-6 m-6 md:h-18 md:w-18 sm:h-8 sm:w-8">
-                <a href="./" className="hover:cursor-pointer">
+            <div className="relative items-center lg:h-24 lg:w-24 p-6 m-6 md:h-18 md:w-18 sm:h-8 sm:w-8">
+                <a href="./" className="hover:cursor-pointer hover:opacity-80">
                     <Image src={discord} alt="discord social icon" layout="fill" objectFit="contain"/>
-                </a>
-            </div>
-            <div className="relative lg:h-24 lg:w-24 p-6 m-6 md:h-18 md:w-18 sm:h-8 sm:w-8">
-                <a href="./" className="hover:cursor-pointer">
-                    <Image src={telegram} alt="teleram social icon" layout="fill" objectFit="contain"/>
                 </a>
             </div>
         </div>

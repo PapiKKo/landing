@@ -2,13 +2,15 @@ import React from 'react';
 import Image from 'next/image';
 import pictogram from '../public/images/スタンダードな人物ピクトグラム.svg';
 import css from '../styles/Home.module.css';
+import AiOutlineArrowRight from 'react/icons';
+
 
 
 const roadmap = () => (
     <section className="body-font">
         <div className="container px-5 py-12 mx-auto flex flex-col">
             <div className="px-4 py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center lg:w-4/6">
-                <h1 id="roadmap" className="mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
+                <h1 id="roadmap" className="pt-12 mb-2 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
                     ROAD MAP
                     </h1>
             </div>
@@ -33,7 +35,7 @@ const roadmap = () => (
                                     ・DEX Listening(EXA)
                                     </dd>
                                 </div>
-                                <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
+                                <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
                                     <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
                                     ●Dev
                                     </dt>
@@ -45,10 +47,10 @@ const roadmap = () => (
                                     <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500 whitespace-nowrap">
                                     ●Est&thinsp;User<br/>
                                     </dt>
-                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0">
+                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-start-2">
                                     ・30K<br/>
                                     </dd>
-                                    <dd className=" lg:text-base sm:text-sm text-gray-900 h-28 w-8 align-text-bottom">
+                                    <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-8 align-text-bottom col-start-3">
                                         <Image src={pictogram}></Image>
                                     </dd>
                                 </div>
@@ -66,31 +68,31 @@ const roadmap = () => (
                     <div className="border-gray-200">
                         <dl>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                   &thinsp;<br/>
+                                <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                                ●Biz<br/>
                                 </dt>
-                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-span-2 md:col-start-2">
                                 ・Gov Token IDO<br/>
                                 ・Open β Open<br/>
                                 </dd>
                             </div>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                &thinsp;<br/>
+                                <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                                ●Dev<br/>
                                 </dt>
-                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2  ">
+                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-span-2 md:col-start-2">
                                 ・Mobile App Dev<br/>
                                 ・Contents on IPFS
                                 </dd>
                             </div>
                             <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                    <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                    &thinsp;<br/>
+                                    <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500 whitespace-nowrap">
+                                    ●Est&thinsp;User<br/>
                                     </dt>
-                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0">
+                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-start-2">
                                     ・50K<br/>
                                     </dd>
-                                    <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-12 -bottom-1 object-center">
+                                    <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-12 -bottom-1 object-center col-start-3">
                                         <Image src={pictogram}></Image>
                                     </dd>
                                 </div>
@@ -108,27 +110,27 @@ const roadmap = () => (
                     <div className="border-gray-200">
                         <dl>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                &thinsp;<br/>
+                                <dt className="block lg:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                                ●Biz<br/>
                                 </dt>
-                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-span-2 md:col-start-2">
                                 ・Join IP contents<br/>
                                 ・DEX Listing (SHE)<br/>
                                 </dd>
                             </div>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                &thinsp;<br/>
+                                <dt className="block lg:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                                ●Dev<br/>
                                 </dt>
-                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                <span className="text-blue-800 border-blue-800 border-b-2 font-semibold">・Mobile App Launch&nbsp;</span><br/>
+                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-span-2 md:col-start-2">
+                                <span className="text-blue-800 border-blue-800 border-b-2 font-semibold whitespace-nowrap text-center">・Mobile App Launch&nbsp;</span><br/>
                                 </dd>
                             </div>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                    <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                    &thinsp;<br/>
+                                    <dt className="block lg:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500 whitespace-nowrap">
+                                    ●Est&thinsp;User<br/>
                                     </dt>
-                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0">
+                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-start-2">
                                     ・500K<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-20 -bottom-1 col-start-3">
@@ -148,27 +150,27 @@ const roadmap = () => (
                     </div>
                     <div className="border-gray-200">
                         <dl>
-                            <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                            <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                            &thinsp;<br/>
+                            <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
+                            <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                            ●Biz<br/>
                                     </dt>
-                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2  ">
+                                <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-span-2 md:col-start-2">
                                 ・CEX Listing<br/>
                                 </dd>
                             </div>
                             <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                            <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                            &thinsp;<br/>
+                            <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500">
+                            ●Dev<br/>
                                 </dt>
                                 <dd className="h-20 mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 sm:col-span-2 font ">
                                 <br/>
                                 </dd>
                             </div>
-                            <div className="  px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
-                                    <dt className="w-0 lg:text-base sm:text-sm font-medium text-gray-500">
-                                    &thinsp;<br/>
+                            <div className="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2">
+                                    <dt className="block md:hidden w-0 lg:text-base sm:text-sm font-medium text-gray-500 whitespace-nowrap">
+                                    ●Est&thinsp;User<br/>
                                     </dt>
-                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0">
+                                    <dd className="mt-1 lg:text-base sm:text-sm text-gray-900 sm:mt-0 col-start-2">
                                     ・1M<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-28 -bottom-1 col-start-3">

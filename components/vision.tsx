@@ -8,7 +8,7 @@ const vision = () => (
     <section className="body-font">      
         <Image
             src={background} />
-        <div className="absolute right-2 text-right z-0 sm:right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl text-white top-20 sm:top-28 md:top-32 lg:top-44">Share the Voice for Good of All, Not Benefit of One
+        <div className="absolute right-2 text-right z-0 sm:right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl xl:text-4xl 2xl:text-5xl text-white top-20 sm:top-28 md:top-32 lg:top-44 xl:top-48">Share the Voice for Good of All, Not Benefit of One
     </div>
   <div className="container px-5 py-12 mx-auto flex flex-col">
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-center lg:w-4/6 mx-auto">
@@ -17,7 +17,7 @@ const vision = () => (
         <br className="hidden md:block" />
         </h1>
         <p className="leading-relaxed sm:text-lg md:text-2xl">
-          NOT a Taker, BUT a Giver.
+        Creating the world where both creator and reader exchange their passion interactively and be inspired each other.
         </p><br className="hidden md:block" /><br className="hidden md:block" /><br className="hidden md:block" />
         <h3 className="pt-12 pb-4 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2">
         SPREAD YOUR WORDS<br/>
