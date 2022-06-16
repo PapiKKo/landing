@@ -1,13 +1,10 @@
 //import { VFC } from 'react';
 import React, { ReactNode, useState } from "react";
 import Image from 'next/image';
-import logo2_rocket from "../public/images/logo2_head.PNG";
+import logo2_rocket from '../public/images/logo_exp.png';
 import openTag from '../public/images/openTag.svg';
 import css from '../styles/Home.module.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { slide as Menu } from "react-burger-menu";
-import rocket from "../public/images/logo_rocket.png";
-import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 
 
@@ -33,14 +30,14 @@ export const Layout = ({ children }: Props) => {
     return (
         <header className="text-blackbody-font bg-gray-200">
             <div className="container mx-auto flex flex-wrap pt-4 px-auto md:flex-row items-center">
-                <a href="./" className="hidden sm:block flex title-font font-medium items-left text-gray-900 mb-4">
+                <a href="./" className="hidden sm:block flex title-font font-medium items-left text-gray-900 mb-4 hover:opacity-80">
                     <Image 
                         src={logo2_rocket}
                         height="50px"
                         width="330px"
                     />
                 </a>
-                <a href="./" className="block sm:hidden flex title-font font-medium items-left text-gray-900 mb-3">
+                <a href="./" className="block sm:hidden flex title-font font-medium items-left text-gray-900 mb-3 hover:opacity-80">
                     <Image 
                         src={logo2_rocket}
                         height="30px"
@@ -76,7 +73,7 @@ export const Layout = ({ children }: Props) => {
                         </path>
                     </svg>
                 </button>
-                <div className={"absolute lg:hidden right-0 top-16 z-40 w-full py-2 mt-2 bg-white shadow-xl text-center transition-all"+ (active.isActive==true ? ' block' : ' hidden')}>
+                <div className={"absolute lg:hidden right-0 top-16 z-40 w-full py-2 top-14 md:top-20 md:mt-auto bg-white shadow-xl text-center ease-in-out duration-75"+ (active.isActive==true ? ' block' : ' hidden')}>
                     <AnchorLink href='#vision' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Vision</AnchorLink>
                     <AnchorLink href='#roadmap' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">RoadMap</AnchorLink>
                     <AnchorLink href='#action' className="block px-4 py-3 font-medium text-black capitalize transition-colors duration-200 transform hover:bg-gray-100">Community</AnchorLink>
@@ -99,27 +96,11 @@ export const Layout = ({ children }: Props) => {
 
   const Footer = () => (
     /* ここにペースト */
-    <footer className="text-gray-600 body-font bg-gray-200">
-      <div className="container px-4 pt-6 pb-4 mx-auto flex items-center sm:flex-row flex-col">
-        <a href="./" className="hidden sm:block flex title-font font-medium items-left text-gray-900">
-            <Image 
-                src={logo2_rocket}
-                height="50px"
-                width="330px"
-            />
-        </a>
-        <a href="./" className="block sm:hidden flex title-font font-medium items-left text-gray-900">
-            <Image 
-                src={logo2_rocket}
-                height="30px"
-                width="198px"
-            />
-        </a>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Bluebirdsong —
-          <a href="./" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@copy right</a>
-        </p>
-      </div>
-    </footer>
+    <div className="bg-gray-200 sm:pt-8 lg:pt-10">
+        <footer className="max-w-screen-2xl px-4 md:px-8 mx-auto">
+            <div className="text-gray-700 text-sm text-center border-t pb-8">© 2022 - Bluebirdsong Inc. All Rights Reserved.</div>
+        </footer>
+    </div>
   );
 
 type Props = {

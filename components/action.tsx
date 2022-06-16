@@ -9,17 +9,17 @@ import telegram from "../public/images/telegram.png";
 const action = () => (
     <div className="container px-5 py-12 mx-auto flex flex-col">
     <div className="py-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <h1 id="action" className="pt-12 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
+      <h1 className="pt-12 mb-8 sm:text-3xl lg:text-5xl font-extrabold leading-none md:pl-2 text-center">
       SEE OUR ACTION
        
       </h1>
       <br/><br/>
-      <a className="twitter-timeline" data-width="100%" data-height="700" href="https://twitter.com/ExploratriumM?ref_src=twsrc%5Etfw">
+      <a className="twitter-timeline" data-width="100%" data-height="800" href="https://twitter.com/ExploratriumM?ref_src=twsrc%5Etfw">
           Tweets by ExploratriumM</a>
       <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
         <br/><br/>
         <Link href= "./">
-            <h3 className="py-8 mb-12 sm:text-3xl lg:text-5xl font-extrabold leading-loose hover:text-gray-600 text-center">
+            <h3 id="action" className="py-8 mb-12 sm:text-3xl lg:text-5xl font-extrabold leading-loose hover:text-gray-600 text-center">
             CO-CREATIVE
             <br/>
             EXPLORATRIUM

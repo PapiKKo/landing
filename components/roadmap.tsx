@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import pictogram from '../public/images/スタンダードな人物ピクトグラム.svg';
 import css from '../styles/Home.module.css';
-import AiOutlineArrowRight from 'react/icons';
 
 
 
@@ -182,7 +181,7 @@ const roadmap = () => (
             </div>
         </div>
     </div>
-    <div className={css.btn+' flex flex-wrap my-4 justify-center mx-auto'}>
+    <div className={css.btn+' flex flex-wrap my-14 justify-center mx-auto'}>
         <button className="flex items-center bg-black py-4 px-6 focus:outline-none hover:bg-gray-300 rounded md:mt-0 text-white hover:text-black sm:text-2xl lg:text-4xl xl:text-5xl font-extrabold  transition-all">
             <span className={css.btn__text}>LAUNCH UP</span>
             <span className={css.btn__text}>COMING SOON ......</span>
