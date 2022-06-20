@@ -7,7 +7,9 @@ import background from "../public/images/book.png";
 const vision = () => (
     <section className="body-font">      
         <Image
-            src={background} />
+            src={background}
+            alt="under header png"
+        />
         <div className="absolute right-2 text-right z-0 sm:right-4 sm:text-lg md:right-8 md:text-2xl lg:right-24 lg:text-3xl xl:text-4xl 2xl:text-5xl text-white top-20 sm:top-28 md:top-32 lg:top-44 xl:top-48">Share the Voice for Good of All, Not Benefit of One
     </div>
   <div className="container px-5 py-12 mx-auto flex flex-col">

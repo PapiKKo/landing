@@ -35,6 +35,7 @@ export const Layout = ({ children }: Props) => {
                         src={logo2_rocket}
                         height="50px"
                         width="330px"
+                        alt="header logo"
                     />
                 </a>
                 <a href="./" className="block sm:hidden flex title-font font-medium items-left text-gray-900 mb-3 hover:opacity-80">
@@ -42,6 +43,7 @@ export const Layout = ({ children }: Props) => {
                         src={logo2_rocket}
                         height="30px"
                         width="198px"
+                        alt="header logo"
                     />
                 </a>
                 <div className="navbar-menu lg:ml-auto lg:mr-auto flex flex-wrap text-base lg:mb-4">
@@ -55,6 +57,7 @@ export const Layout = ({ children }: Props) => {
                             src={openTag}
                             height="35px"
                             width="35px"
+                            alt="jump logo"
                         />
                     </a>
 
@@ -82,6 +85,7 @@ export const Layout = ({ children }: Props) => {
                             src={openTag}
                             height="30px"
                             width="30px"
+                            alt="jump logo"
                         />
                     </a>
                     <button className={css.btn+" px-4 py-3 text-center bg-black w-56 focus:outline-none hover:text-black hover:bg-gray-300 rounded text-white font-medium"}>

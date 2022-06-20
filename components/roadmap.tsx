@@ -50,7 +50,7 @@ const roadmap = () => (
                                     ・30K<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-8 align-text-bottom col-start-3">
-                                        <Image src={pictogram}></Image>
+                                        <Image src={pictogram} alt="30K pictogram"></Image>
                                     </dd>
                                 </div>
                             </dl>
@@ -92,7 +92,7 @@ const roadmap = () => (
                                     ・50K<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-12 -bottom-1 object-center col-start-3">
-                                        <Image src={pictogram}></Image>
+                                        <Image src={pictogram} alt="50K pictogram"></Image>
                                     </dd>
                                 </div>
                         </dl>
@@ -133,7 +133,7 @@ const roadmap = () => (
                                     ・500K<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-20 -bottom-1 col-start-3">
-                                        <Image src={pictogram}></Image>
+                                        <Image src={pictogram} alt="500K pictogram"></Image>
                                     </dd>
                             </div>
                         </dl>
@@ -173,7 +173,7 @@ const roadmap = () => (
                                     ・1M<br/>
                                     </dd>
                                     <dd className="lg:text-base sm:text-sm text-gray-900 h-28 w-28 -bottom-1 col-start-3">
-                                        <Image src={pictogram}></Image>
+                                        <Image src={pictogram} alt="1M pictogram"></Image>
                                     </dd>
                             </div>
                         </dl>
